@@ -1,8 +1,10 @@
-# kafka-example
-Write and Read messages published in topics using Kafka
+# Kafka message exchange
+Write and Read messages published in topics using Kafka.
 
 Start both programs:
 
-In the producer shell write messages.
+Start first the docker compose file with `docker compose up`. Kafka will be running on localhost:9092
 
-In the consumer shell read messages.
+Start the consumer which will be listening for incoming messages.
+
+Start the producer -> Write messages in the console. The messages will be published in the topic and can be read in the consumer console.
