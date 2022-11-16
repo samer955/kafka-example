@@ -9,6 +9,7 @@ Start the consumer:
 This will be the output : 
 
 `*** Connected to Kafka on localhost:9092, messages will be published on test_topic ***
+
 *** Enter a message: ***`
 
 
